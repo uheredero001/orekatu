@@ -24,6 +24,28 @@
   color: white;
 }
 
+footer{
+  background-color: #8ba7de;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body{
+  background-color: rgb(182, 227, 212);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +57,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.me-auto {
+  margin-right: auto !important;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  /* background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important; */
+}
+
+.navbar-expand-lg {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  /* --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65); */
+  /* --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8); */
+  /* --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3); */
+  /* --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1); */
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  /* --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1); */
+  /* --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1); */
+  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%2833, 37, 41, 0.75%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e);
+  --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+  --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+  position: relative;
+  display: flex
+;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+nav {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.bs-navbar-color {
+  color:white;
+}
+
+a:-webkit-any-link {
+  text-decoration:none;
+  color: white;
+  margin-left: 1cm;
 }

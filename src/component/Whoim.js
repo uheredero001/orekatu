@@ -1,5 +1,10 @@
 const Whoim = () => {
-    return <h1>Quien soy</h1>;
+    return <div>
+        <p>Quien soy</p>
+        
+        
+        
+        </div>;
   };
   
   export default Whoim;

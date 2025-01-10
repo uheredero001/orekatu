@@ -27,14 +27,14 @@
 
 
 body{
-  background-color: #F5F5DC;
+  background-color: #fffCF0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   /*justify-content: center;*/
-  font-size: calc(10px + 2vmin);
-  color: rgb(71, 71, 71);
+  font-size: calc(8px + 2vmin);
+  color: #60665A;
   width: 100%;
 }
 
@@ -110,12 +110,12 @@ div#body-center{
 nav {
   display: block;
   unicode-bidi: isolate;
-  background-color: #E6E6FA;
+  background-color: #B8AEE8;
   margin-left: 20%;
   margin-right: 20%;
 }
 div#nav-center{
-  background-color: #E6E6FA;
+  background-color: #B8AEE8;
 }
 
 .bs-navbar-color {
@@ -148,7 +148,7 @@ div.prices {
 /* contactUs */
 input#contactSend{
   border-color: #000000;
-  background-color: #cfffe9;
+  background-color: #fff2cf;
   border-radius: 0.2cm;
   font-size: larger;
 }
@@ -172,3 +172,15 @@ div#footer-center{
   margin-right: 30%;
 }
 /* end footer*/ 
+
+/* home */
+a:-webkit-any-link#descubremas {
+  text-decoration:none;
+  color: rgb(71, 71, 71);
+  margin-left: 0cm;
+  text-decoration: underline;
+  
+}
+
+
+/* end home */

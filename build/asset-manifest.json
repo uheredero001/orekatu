@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.9db2be05.css",
+    "main.js": "/react-gh-pages/static/js/main.dc226a79.js",
+    "static/media/minionBob.png": "/react-gh-pages/static/media/minionBob.8a373efb727e02b320a4.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.9db2be05.css.map": "/react-gh-pages/static/css/main.9db2be05.css.map",
+    "main.dc226a79.js.map": "/react-gh-pages/static/js/main.dc226a79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9db2be05.css",
+    "static/js/main.dc226a79.js"
+  ]
+}

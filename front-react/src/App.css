@@ -110,12 +110,12 @@ div#body-center{
 nav {
   display: block;
   unicode-bidi: isolate;
-  background-color: #B8AEE8;
+  background-color: #d3cdf0;
   margin-left: 20%;
   margin-right: 20%;
 }
 div#nav-center{
-  background-color: #B8AEE8;
+  background-color: #d3cdf0;
 }
 
 .bs-navbar-color {

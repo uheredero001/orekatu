@@ -6,10 +6,7 @@ import Layout from './component/Layout';
 import { ToastContainer } from 'react-toastify';
 
 
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
     
     <App />
@@ -21,7 +18,8 @@ root.render(
       <p />
     </div>
     {/* Fin pie de página */}
-  </React.StrictMode>
+  </React.StrictMode>,
+    document.getElementById('root')
 );
 
 

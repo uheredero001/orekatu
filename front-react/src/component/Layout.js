@@ -39,9 +39,9 @@ const Layout = () => {
           <Container>
               <Nav className="me-auto">
                 <Nav.Link className={getClass("home")} id="home"  href="/">Inicio</Nav.Link>
-                <Nav.Link className={getClass("whoim")} id="whoim"  href="whoim">Quien soy</Nav.Link>
-                <Nav.Link className={getClass("services")} id="services"  href="services">Servicios</Nav.Link>
-                <Nav.Link className={getClass("contact")} id="contact" href="contact">Contacto</Nav.Link>
+                <Nav.Link className={getClass("whoim")} id="whoim"  href="/whoim">Quien soy</Nav.Link>
+                <Nav.Link className={getClass("services")} id="services"  href="/services">Servicios</Nav.Link>
+                <Nav.Link className={getClass("contact")} id="contact" href="/contact">Contacto</Nav.Link>
               </Nav>
           </Container>
         </Navbar>

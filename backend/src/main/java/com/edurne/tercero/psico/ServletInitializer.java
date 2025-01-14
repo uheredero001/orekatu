@@ -1,4 +1,4 @@
-package com.edurne.tercero.psico.edurneterceropsicologia;
+package com.edurne.tercero.psico;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
